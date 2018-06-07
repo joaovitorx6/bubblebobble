@@ -33,4 +33,5 @@ while True:
                 displayRun.blit(block,(x_block,y_block))
                 y_block+=20
 
+    block(0,0,20,'y')
     pygame.display.flip()
